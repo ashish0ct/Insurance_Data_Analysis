@@ -1,0 +1,21 @@
+taking data into Microsoft SQL server (SSMS), first I create a database "create database Insurancedb" and in that I import flat file and browse "InsuanceData.csv" file.
+
+making connection in Power BI to SQL Server database and load Insurancedb table.
+
+go through data profiling.
+
+adding visuals
+
+publishing the report to power bi service
+
+learnt scheduling refresh and to use it we need a 'On-premises data gateway (personal mode, especially for single user)' and sign in with same account then afterward we can select time zone also able to add another time whenever we want to schedule our data to refresh also can set refresh frequency.
+
+learnt about 'drill through filter' so in page 2 I have set policy type to drill through, this helps me filter records in page 2 through page 1 policy type.
+for example: from page 1 in 'premium amount by policy type' visual I right click to 'Auto' this shows option of drill thorugh to page 2. So it will filter the page 2 according to policy type 'Auto'.
+
+In page 2 there is option appear in top left corner saying 'Go back' simply means we can go back to particular page from which I set drill through filter. It helps when in our report there are many pages.
+
+Learnt about different Roles in Power BI Desktop, so it means we can set some particular roles.
+for example: I create a role named 'Travel role' for Travel manager. So whenever a travel manager going through the report they can simply just select view as travel role then all visuals filtered according to Travel. Also in power BI service there is a concept Row-Level Security in which all the created roles listed and for that particular roles we can assigned any number of members using their email address. So the members include in the Travel roles can only able to see Travel related filtered visuals only.
+
+we can create reports on power bi desktop and power bi service but we can create power dashboard in power service only, reports might be consists of multiple pages but dashboard only on consists of single page. using power bi service we can pin visuals which we want to present in a dashboard
