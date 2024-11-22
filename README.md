@@ -67,3 +67,17 @@ This repository contains an analysis of insurance data using Microsoft SQL Serve
 - Power BI Desktop
 - Power BI Service
 - On-premises data gateway
+
+## Key Points
+- Developed interactive Power BI dashboards for insurance policy analysis and visualization
+- Implemented SQL Server database for efficient storage and management of insurance data
+- Created drill-through filters for detailed policy exploration in Power BI reports
+- Set up role-based security to manage data access for different user groups
+- Configured scheduled data refresh using On-premises data gateway for up-to-date reporting
+- Designed multi-page reports with comprehensive metrics on premiums, claims, and policy statuses
+- Utilized Power BI service to create a main dashboard highlighting key insurance metrics
+- Analyzed premium distribution, claim statuses, and age-based claim trends using various chart types
+- Implemented row-level security in Power BI for role-specific data views
+- Demonstrated proficiency in data cleaning, transformation, and visualization techniques
+- Created a responsive layout for optimal viewing across different devices
+- Leveraged Power BI's DAX language for custom calculations and measures
